@@ -1,5 +1,5 @@
 {
-  "name": "flattener",
+  "name": "flattener-kit",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,6 +18,7 @@
   "keywords": [
     "flat",
     "flattener",
+    "flattener-kit",
     "payload"
   ],
   "author": "Foysal Ahmed",
@@ -27,8 +28,7 @@
     "url": "https://github.com/your-username/mongoose-app-query"
   },
   "description": "Flatten nested objects and arrays into a single level object",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.8",
