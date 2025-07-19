@@ -16,18 +16,24 @@
     "prepare": "husky install"
   },
   "keywords": [
-    "flat",
     "flattener",
     "flattener-kit",
-    "payload"
+    "flat",
+    "unflat",
+    "flatten",
+    "unflatten",
+    "payload",
+    "object",
+    "nested",
+    "transform"
   ],
-  "author": "Foysal Ahmed",
+  "author": "Foysal Ahmed <foysalahmedmin@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/your-username/mongoose-app-query"
   },
-  "description": "Flatten nested objects and arrays into a single level object",
+  "description": "An object flatten/unflatten utility with OOP approach and transform support.",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^30.0.0",
