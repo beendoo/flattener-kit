@@ -8,8 +8,8 @@ Flattener Kit is a lightweight and flexible utility to convert deeply nested obj
 
 - Flatten nested `Object` and `Array` structures into a single-level object with dot/bracket notation.
 - Unflatten a flat object back to its original nested form.
-- Replace whole sub-paths instead of flattening (`replaces` config).
-- Overwrite or merge behavior support during unflattening (`overwriteObjects` config).
+- Replace whole sub-paths instead of flattening (`safes` config).
+- Overwrite or merge behavior support during unflattening (`overwrite` config).
 - Highly configurable with reusable OOP design.
 
 ---
@@ -260,7 +260,7 @@ const flat = {
   'user.name': 'David',
 };
 
-const flattener = new Flattener({ overwriteObjects: true });
+const flattener = new Flattener({ overwrite: true });
 const nested = flattener.unflatten(flat);
 
 console.log(nested);
